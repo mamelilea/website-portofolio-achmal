@@ -2319,13 +2319,13 @@ footer ul .fa-brands {
 
   .flip-card {
     position: relative;
-    left: -20px;
+    left: -16px;
   }
 
   .carousel-item {
     height: 400px;
     position: relative;
-    left: 11%;
+    left: 10%;
   }
 
 
