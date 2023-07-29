@@ -3,7 +3,7 @@
 let valueDisplays = document.querySelectorAll(".num");
 let interval = 30000;
 valueDisplays.forEach((valueDisplay) => {
-  let startValue = 36;
+  let startValue = 26;
   let endValue = parseInt(valueDisplay.getAttribute("data-val"));
   let duration = Math.floor(interval / endValue);
   let counter = setInterval(function () {
