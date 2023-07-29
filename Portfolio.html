@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- ini css ku -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- ini bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- bootstrapcdn font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+</head>
+
+<body>
+
+    <!-- scrool on top -->
+    <a class="btn-top" href="#btn-goal"> <i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i> </a>
+
+    <!-- bagian loader -->
+    <div class="loader-section" id="loader-section">
+        <div class="loader">
+            <div class="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- loader end -->
+
+    <!-- sidebar start -->
+    <section class="nav-side">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn-bar"></i>
+            <i class="fas fa-times" id="cancel-bar"></i>
+        </label>
+
+        <div class="sidebar">
+            <header>navigation</header>
+            <ul>
+                <li><a href="#btn-goal">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#count">Record</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#background">Background</a></li>
+                <li><a href="#testi">Testimoni</a></li>
+                <li><a href="#send">Send Us</a></li>
+            </ul>
+
+            <p>
+                Perspiciatis hic praesentium nesciunt. Et neque a dolorum voluptatem porro iusto sequi veritatis libero
+                enim. Iusto id suscipit veritatis neque reprehenderit.
+            </p>
+
+            <div class="navbar-sosmed">
+                <div class="card">
+                    <span>Social</span>
+                    <a class="social-link" href="https://twitter.com/" target="_blank"><svg height="35"
+                            width="20" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"
+                            class="icon">
+                            <path fill=""
+                                d="M962.267429 233.179429q-38.253714 56.027429-92.598857 95.451429 0.585143 7.972571 0.585143 23.990857 0 74.313143-21.723429 148.260571t-65.974857 141.970286-105.398857 120.32-147.456 83.456-184.539429 31.158857q-154.843429 0-283.428571-82.870857 19.968 2.267429 44.544 2.267429 128.585143 0 229.156571-78.848-59.977143-1.170286-107.446857-36.864t-65.170286-91.136q18.870857 2.852571 34.889143 2.852571 24.576 0 48.566857-6.290286-64-13.165714-105.984-63.707429t-41.984-117.394286l0-2.267429q38.838857 21.723429 83.456 23.405714-37.741714-25.161143-59.977143-65.682286t-22.308571-87.990857q0-50.322286 25.161143-93.110857 69.12 85.138286 168.301714 136.265143t212.260571 56.832q-4.534857-21.723429-4.534857-42.276571 0-76.580571 53.979429-130.56t130.56-53.979429q80.018286 0 134.875429 58.294857 62.317714-11.995429 117.174857-44.544-21.138286 65.682286-81.115429 101.741714 53.174857-5.705143 106.276571-28.598857z">
+                            </path>
+                        </svg></a>
+
+                    <a class="social-link" href="https://www.instagram.com/achmalp/" target="_blank"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="" class="icon"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg></a>
+
+                    <a class="social-link" href="https://github.com/mamelilea" target="_blank"><svg height="35"
+                            width="20" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"
+                            class="icon">
+                            <path fill=""
+                                d="M950.930286 512q0 143.433143-83.748571 257.974857t-216.283429 158.573714q-15.433143 2.852571-22.601143-4.022857t-7.168-17.115429l0-120.539429q0-55.442286-29.696-81.115429 32.548571-3.437714 58.587429-10.313143t53.686857-22.308571 46.299429-38.034286 30.281143-59.977143 11.702857-86.016q0-69.12-45.129143-117.686857 21.138286-52.004571-4.534857-116.589714-16.018286-5.12-46.299429 6.290286t-52.589714 25.161143l-21.723429 13.677714q-53.174857-14.848-109.714286-14.848t-109.714286 14.848q-9.142857-6.290286-24.283429-15.433143t-47.689143-22.016-49.152-7.68q-25.161143 64.585143-4.022857 116.589714-45.129143 48.566857-45.129143 117.686857 0 48.566857 11.702857 85.723429t29.988571 59.977143 46.006857 38.253714 53.686857 22.308571 58.587429 10.313143q-22.820571 20.553143-28.013714 58.88-11.995429 5.705143-25.746286 8.557714t-32.548571 2.852571-37.449143-12.288-31.744-35.693714q-10.825143-18.285714-27.721143-29.696t-28.306286-13.677714l-11.410286-1.682286q-11.995429 0-16.603429 2.56t-2.852571 6.582857 5.12 7.972571 7.460571 6.875429l4.022857 2.852571q12.580571 5.705143 24.868571 21.723429t17.993143 29.110857l5.705143 13.165714q7.460571 21.723429 25.161143 35.108571t38.253714 17.115429 39.716571 4.022857 31.744-1.974857l13.165714-2.267429q0 21.723429 0.292571 50.834286t0.292571 30.866286q0 10.313143-7.460571 17.115429t-22.820571 4.022857q-132.534857-44.032-216.283429-158.573714t-83.748571-257.974857q0-119.442286 58.88-220.306286t159.744-159.744 220.306286-58.88 220.306286 58.88 159.744 159.744 58.88 220.306286z">
+                            </path>
+                        </svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/achmal-pradipta-aditama-742b85285" target="_blank"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="" class="bi bi-linkedin"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg></a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- sidebar end -->
+
+
+    <!-- landingpage start -->
+    <div class="landingpage">
+        <div class="container">
+            <a id="btn-goal" class="navbar-brand" href="#">
+                <p class="animate__animated animate__fadeInDown">ACHPORTO<b>.</b></p>
+            </a>
+            <div class="row">
+                <div class="col landingpage-text">
+                    <span class="topline animate__animated animate__fadeInDown">Hello</span>
+                    <h1>I'm <span class="multi-text"></span></h1>
+                    <p>welcome to my portfolio website, here you can find out more details about me, please support me
+                        always, thank you.</p>
+                    <ul class="btn">
+                        <button><a id="toastBtn" href="#">Download CV</a></button>
+                        <button><a href="https://www.instagram.com/achmalp/" target="_blank">Here
+                                Me</a></button>
+                    </ul>
+                </div>
+                <div class="col landingpage-foto">
+                    <img src="img/splash.png" alt="splash" id="splash">
+                    <img src="img/1.png" alt="people" id="people">
+                </div>
+            </div>
+        </div>
+
+        <div class="icon-sosmed-landingpage">
+            <a href="https://www.facebook.com/" target="_blank">
+                <div class="sosmed-landingpage">
+                    <i class="fa-brands fa-facebook fa-beat"></i>
+                    <span>facebook</span>
+                </div>
+            </a>
+
+            <br><br>
+
+            <a href="https://www.instagram.com/achmalp/" target="_blank">
+                <div class="sosmed-landingpage">
+                    <i style="position: absolute; padding: 9px 10px;" class="fa-brands fa-instagram fa-beat"></i>
+                    <span>instagram</span>
+                </div>
+            </a>
+
+            <br><br>
+
+            <a href="https://www.twitter.com/" target="_blank">
+                <div class="sosmed-landingpage">
+                    <i class="fa-brands fa-twitter fa-beat"></i>
+                    <p>twitter</p>
+                </div>
+            </a>
+
+            <br><br>
+
+            <a href="https://www.linkedin.com/in/achmal-pradipta-aditama-742b85285" target="_blank">
+                <div class="sosmed-landingpage">
+                    <i style="position: absolute; padding: 9px 10px;" class="fa-brands fa-linkedin fa-beat"></i>
+                    <p>linkedin</p>
+                </div>
+            </a>
+
+            <br><br>
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <div class="sosmed-landingpage">
+                    <i class="fa-brands fa-youtube fa-beat"></i>
+                    <p>youtube</p>
+                </div>
+            </a>
+
+        </div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kVWTETvzH-E" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kVWTETvzH-E" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kVWTETvzH-E" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    </div>
+    <!-- landingpage end -->
+
+    <!-- about start -->
+    <div class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <center>
+                <hr>
+            </center>
+            <p>Holla, introduce, I am Achmal Pradipta Aditama, usually called <a style="text-decoration: none;"
+                    target="_blank" href="https://www.instagram.com/achmalp">Achmal</a>, and I am currently studying at
+                <a style="text-decoration: none;" target="_blank"
+                    href="https://www.instagram.com/univ.brawijaya/">Brawijaya University</a>, majoring in information
+                technology education, and currently I am just starting to enter the world of IT to support my career as
+                a developer. I try to always study and learn a lot of knowledge, especially in the field of technology.
+                please support always.
+            </p>
+        </div>
+    </div>
+    <!-- about end -->
+
+    <!-- counting start -->
+    <div class="counting" id="count">
+        <div class="wrapper">
+            <div class="container">
+                <i class="fas fa-mug-hot "></i>
+                <span class="num" data-val="375">000</span>
+                <span class="text">CUPS OF COFFEE</span>
+            </div>
+            <div class="container">
+                <i class="fas fa-diagram-project"></i>
+                <span class="num" data-val="361">000</span>
+                <span class="text">PROJECTS</span>
+            </div>
+            <div class="container">
+                <i class="fas fa-handshake"></i>
+                <span class="num" data-val="125">000</span>
+                <span class="text">CLIENTS</span>
+            </div>
+            <div class="container">
+                <i class="fas fa-star"></i>
+                <span class="num" data-val="119">000</span>
+                <span class="text">FIVE STARS</span>
+            </div>
+        </div>
+    </div>
+    <!-- counting end -->
+
+    <!-- skills start -->
+    <div class="skills" id="skill">
+        <div class="container">
+            <h2>My Skills</h2>
+            <center>
+                <hr>
+            </center>
+            <div class="wrapper">
+                <ul class="carousel">
+                    <li class="card">
+                        <i class="mdi mdi-language-html5" style="color: orangered;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-css3" style="color: rgb(108, 162, 255);"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-javascript" style="color: rgb(232, 255, 54);"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-bootstrap" style="color: rgb(129, 26, 255);"></i>
+                    </li>
+
+                    <li class="card materialize">
+                        <i style="font-size: 60px; position: relative; margin-top: 10px; margin-right: 130px;"><iconify-icon icon="logos:materializecss" width="75" height="86"></iconify-icon></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-python" style="color: #000000;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-laravel" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-php" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-java" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-cpp" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-csharp" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-c" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-typescript" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-language-swift" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-bulma" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-tailwind" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-react" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-vuejs" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-nodejs" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-angularjs" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i class="mdi mdi-jquery" style="color: #363636;"></i>
+                    </li>
+
+                    <li class="card">
+                        <i style="position: relative; margin-top: 10px; margin-right: 100px;color: #363636;"><iconify-icon
+                                icon="ic:baseline-adobe"></iconify-icon></i>
+                    </li>
+
+                    <li class="card">
+                        <i style="position: relative; margin-top: 10px; margin-right: 100px;color: #363636;"><iconify-icon
+                                icon="ic:baseline-wordpress"></iconify-icon></i>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="note-skill" style="position: absolute; bottom: 0;left: calc(50% - 280px);">
+                <p>
+                    Note : a colored logo is a skill that I am good at or that I am learning.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- skills end -->
+
+    <!-- works start -->
+    <div class="works">
+        <div class="container">
+            <h2>Recent Works</h2>
+            <center>
+                <hr>
+            </center>
+
+            <div class="works-karya">
+                <div class="works-1">
+                    <div class="card">
+                        <a href=""><img src="img/Screenshot 2023-07-20 160952.png" alt=""></a>
+                        <div class="card__content">
+                            <p class="card__title">Achmal Porto</p>
+                            <p class="card__description">"Achmal Porto" merupakan website pertama Achmal sebagai
+                                pemula Web Developer, dibuat menggunakan html css dan javascript. Achmal membuat
+                                website ini dengan menerapkan prinsip pelajari, tiru, kemudian modifikasi, anda bisa
+                                melihat detail website ini <a
+                                    href="https://mamelilea.github.io/achmal-porto/portofolionew.html"
+                                    target="_blank">disini</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="works-2">
+                    <div class="card">
+                        <a href=""><img src="img/Screenshot-2.png" alt=""></a>
+                        <div class="card__content">
+                            <p class="card__title">GALERIKU</p>
+                            <p class="card__description">"GALERIKU" merupakan karya galeri sederhana Achmal yang dibuat
+                                berdasarkan referensi WPU, menggunakan html dan css. Achmal membuat
+                                website ini dengan menerapkan prinsip pelajari, tiru, kemudian modifikasi, anda bisa
+                                melihat detail website ini <a
+                                    href="https://mamelilea.github.io/galeri-achmal/galeri.html"
+                                    target="_blank">disini</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="works-3">
+                    <div class="card">
+                        <a href=""><img src="img/Screenshot 2023-07-28 213543.png" alt=""></a>
+                        <div class="card__content">
+                            <p class="card__title">Website Materialize</p>
+                            <p class="card__description">"Website Materialize" sama seperti namanya, website ini merupakan website Achmal yang dibuat menggunakan framework css yakni Materialize, anda bisa
+                                melihat detail website ini <a
+                                    href="https://mamelilea.github.io/porto-materialize/coba.html"
+                                    target="_blank">disini</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- works end -->
+
+    <!-- school background start -->
+    <div class="school" id="background">
+        <div class="container">
+            <h2>My Background</h2>
+            <center>
+                <hr>
+            </center>
+            <div class="isischool">
+                <div class="card noselect bg-transparent border-0">
+                    <div class="canvas">
+                        <div class="tracker tr-1"></div>
+                        <div class="tracker tr-2"></div>
+                        <div class="tracker tr-3"></div>
+                        <div class="tracker tr-4"></div>
+                        <div class="tracker tr-5"></div>
+                        <div class="tracker tr-6"></div>
+                        <div class="tracker tr-7"></div>
+                        <div class="tracker tr-8"></div>
+                        <div class="tracker tr-9"></div>
+                        <div class="tracker tr-10"></div>
+                        <div class="tracker tr-11"></div>
+                        <div class="tracker tr-12"></div>
+                        <div class="tracker tr-13"></div>
+                        <div class="tracker tr-14"></div>
+                        <div class="tracker tr-15"></div>
+                        <div class="tracker tr-16"></div>
+                        <div class="tracker tr-17"></div>
+                        <div class="tracker tr-18"></div>
+                        <div class="tracker tr-19"></div>
+                        <div class="tracker tr-20"></div>
+                        <div class="tracker tr-21"></div>
+                        <div class="tracker tr-22"></div>
+                        <div class="tracker tr-23"></div>
+                        <div class="tracker tr-24"></div>
+                        <div class="tracker tr-25"></div>
+                        <div id="card">
+                            <p id="prompt">i'ts My Elementary School</p>
+                            <div class="title"><a href="https://infosekolah.net/SD_ISLAM_ABABIL"><img
+                                        src="img/ababil.png" alt=""></a></div>
+                            <div class="subtitle">
+                                <p>SDI ABABIL</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card noselect bg-transparent border-0">
+                    <div class="canvas">
+                        <div class="tracker tr-1"></div>
+                        <div class="tracker tr-2"></div>
+                        <div class="tracker tr-3"></div>
+                        <div class="tracker tr-4"></div>
+                        <div class="tracker tr-5"></div>
+                        <div class="tracker tr-6"></div>
+                        <div class="tracker tr-7"></div>
+                        <div class="tracker tr-8"></div>
+                        <div class="tracker tr-9"></div>
+                        <div class="tracker tr-10"></div>
+                        <div class="tracker tr-11"></div>
+                        <div class="tracker tr-12"></div>
+                        <div class="tracker tr-13"></div>
+                        <div class="tracker tr-14"></div>
+                        <div class="tracker tr-15"></div>
+                        <div class="tracker tr-16"></div>
+                        <div class="tracker tr-17"></div>
+                        <div class="tracker tr-18"></div>
+                        <div class="tracker tr-19"></div>
+                        <div class="tracker tr-20"></div>
+                        <div class="tracker tr-21"></div>
+                        <div class="tracker tr-22"></div>
+                        <div class="tracker tr-23"></div>
+                        <div class="tracker tr-24"></div>
+                        <div class="tracker tr-25"></div>
+                        <div id="card">
+                            <p id="prompt">i'ts My Junior High School</p>
+                            <div class="title"><img src="img/inka.png" alt=""></div>
+                            <div class="subtitle">
+                                SMPIT INSAN KAMIL
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card noselect bg-transparent border-0">
+                    <div class="canvas">
+                        <div class="tracker tr-1"></div>
+                        <div class="tracker tr-2"></div>
+                        <div class="tracker tr-3"></div>
+                        <div class="tracker tr-4"></div>
+                        <div class="tracker tr-5"></div>
+                        <div class="tracker tr-6"></div>
+                        <div class="tracker tr-7"></div>
+                        <div class="tracker tr-8"></div>
+                        <div class="tracker tr-9"></div>
+                        <div class="tracker tr-10"></div>
+                        <div class="tracker tr-11"></div>
+                        <div class="tracker tr-12"></div>
+                        <div class="tracker tr-13"></div>
+                        <div class="tracker tr-14"></div>
+                        <div class="tracker tr-15"></div>
+                        <div class="tracker tr-16"></div>
+                        <div class="tracker tr-17"></div>
+                        <div class="tracker tr-18"></div>
+                        <div class="tracker tr-19"></div>
+                        <div class="tracker tr-20"></div>
+                        <div class="tracker tr-21"></div>
+                        <div class="tracker tr-22"></div>
+                        <div class="tracker tr-23"></div>
+                        <div class="tracker tr-24"></div>
+                        <div class="tracker tr-25"></div>
+                        <div id="card">
+                            <p id="prompt">i'ts My Senior High School</p>
+                            <div class="title"><img src="img/if.png" alt=""></div>
+                            <div class="subtitle">
+                                SMAIT IHSANUL FIKRI
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card noselect bg-transparent border-0">
+                    <div class="canvas">
+                        <div class="tracker tr-1"></div>
+                        <div class="tracker tr-2"></div>
+                        <div class="tracker tr-3"></div>
+                        <div class="tracker tr-4"></div>
+                        <div class="tracker tr-5"></div>
+                        <div class="tracker tr-6"></div>
+                        <div class="tracker tr-7"></div>
+                        <div class="tracker tr-8"></div>
+                        <div class="tracker tr-9"></div>
+                        <div class="tracker tr-10"></div>
+                        <div class="tracker tr-11"></div>
+                        <div class="tracker tr-12"></div>
+                        <div class="tracker tr-13"></div>
+                        <div class="tracker tr-14"></div>
+                        <div class="tracker tr-15"></div>
+                        <div class="tracker tr-16"></div>
+                        <div class="tracker tr-17"></div>
+                        <div class="tracker tr-18"></div>
+                        <div class="tracker tr-19"></div>
+                        <div class="tracker tr-20"></div>
+                        <div class="tracker tr-21"></div>
+                        <div class="tracker tr-22"></div>
+                        <div class="tracker tr-23"></div>
+                        <div class="tracker tr-24"></div>
+                        <div class="tracker tr-25"></div>
+                        <div id="card">
+                            <p id="prompt">i'ts My Collage</p>
+                            <div class="title"><img src="img/ub.png" alt=""></div>
+                            <div class="subtitle">
+                                BRAWIJAYA <br> UNIVERSITY
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- school background end -->
+
+        <!-- quotes start -->
+        <div class="quotes-section">
+            <div class="container">
+                <p>
+                    "Do what you love,
+                </p>
+                <p>
+                    not what you think you should do."
+                </p>
+            </div>
+        </div>
+        <!-- quotes end -->
+
+    <!-- testimoni start -->
+    <div class="testimoni">
+        <div class="container">
+            <h2>Testimoni</h2>
+            <center>
+                <hr>
+            </center>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <div class="profile-image">
+                                        <svg viewBox="0 0 122.88 122.88" y="0px" x="0px"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg" version="1.1" class="pfp">
+                                            <g>
+                                                <path
+                                                    d="M61.44,0c8.32,0,16.25,1.66,23.5,4.66l0.11,0.05c7.47,3.11,14.2,7.66,19.83,13.3l0,0c5.66,5.65,10.22,12.42,13.34,19.95 c3.01,7.24,4.66,15.18,4.66,23.49c0,8.32-1.66,16.25-4.66,23.5l-0.05,0.11c-3.12,7.47-7.66,14.2-13.3,19.83l0,0 c-5.65,5.66-12.42,10.22-19.95,13.34c-7.24,3.01-15.18,4.66-23.49,4.66c-8.31,0-16.25-1.66-23.5-4.66l-0.11-0.05 c-7.47-3.11-14.2-7.66-19.83-13.29L18,104.87C12.34,99.21,7.78,92.45,4.66,84.94C1.66,77.69,0,69.76,0,61.44s1.66-16.25,4.66-23.5 l0.05-0.11c3.11-7.47,7.66-14.2,13.29-19.83L18.01,18c5.66-5.66,12.42-10.22,19.94-13.34C45.19,1.66,53.12,0,61.44,0L61.44,0z M16.99,94.47l0.24-0.14c5.9-3.29,21.26-4.38,27.64-8.83c0.47-0.7,0.97-1.72,1.46-2.83c0.73-1.67,1.4-3.5,1.82-4.74 c-1.78-2.1-3.31-4.47-4.77-6.8l-4.83-7.69c-1.76-2.64-2.68-5.04-2.74-7.02c-0.03-0.93,0.13-1.77,0.48-2.52 c0.36-0.78,0.91-1.43,1.66-1.93c0.35-0.24,0.74-0.44,1.17-0.59c-0.32-4.17-0.43-9.42-0.23-13.82c0.1-1.04,0.31-2.09,0.59-3.13 c1.24-4.41,4.33-7.96,8.16-10.4c2.11-1.35,4.43-2.36,6.84-3.04c1.54-0.44-1.31-5.34,0.28-5.51c7.67-0.79,20.08,6.22,25.44,12.01 c2.68,2.9,4.37,6.75,4.73,11.84l-0.3,12.54l0,0c1.34,0.41,2.2,1.26,2.54,2.63c0.39,1.53-0.03,3.67-1.33,6.6l0,0 c-0.02,0.05-0.05,0.11-0.08,0.16l-5.51,9.07c-2.02,3.33-4.08,6.68-6.75,9.31C73.75,80,74,80.35,74.24,80.7 c1.09,1.6,2.19,3.2,3.6,4.63c0.05,0.05,0.09,0.1,0.12,0.15c6.34,4.48,21.77,5.57,27.69,8.87l0.24,0.14 c6.87-9.22,10.93-20.65,10.93-33.03c0-15.29-6.2-29.14-16.22-39.15c-10-10.03-23.85-16.23-39.14-16.23 c-15.29,0-29.14,6.2-39.15,16.22C12.27,32.3,6.07,46.15,6.07,61.44C6.07,73.82,10.13,85.25,16.99,94.47L16.99,94.47L16.99,94.47z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                        <img src="img/irene.png" alt="">
+                                        <div class="name">
+                                            Bae Joo Hyun
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div class="Description">
+                                        <p class="description">
+                                            Hello, I am a software engineer with over 5 years of experience in web
+                                            development. I specialize in building scalable, high-performance web
+                                            applications using modern web technologies such as React, Angular, and
+                                            Node.js.
+                                        </p>
+                                        <div class="socialbar">
+
+                                            <a id="instagram" href="https://www.instagram.com/renebaebae/?hl=id"
+                                                target="_blank"><svg viewBox="0 0 16 16" class="bi bi-instagram"
+                                                    fill="currentColor" height="16" width="16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                                    </path>
+                                                </svg></a>
+
+                                            <a id="youtube"
+                                                href="https://www.youtube.com/channel/UCk9GmdlDTBfgGRb7vXeRMoQ"
+                                                target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                    height="18" fill="currentColor" class="bi bi-youtube"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                                </svg></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <div class="profile-image">
+                                        <svg viewBox="0 0 122.88 122.88" y="0px" x="0px"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg" version="1.1" class="pfp">
+                                            <g>
+                                                <path
+                                                    d="M61.44,0c8.32,0,16.25,1.66,23.5,4.66l0.11,0.05c7.47,3.11,14.2,7.66,19.83,13.3l0,0c5.66,5.65,10.22,12.42,13.34,19.95 c3.01,7.24,4.66,15.18,4.66,23.49c0,8.32-1.66,16.25-4.66,23.5l-0.05,0.11c-3.12,7.47-7.66,14.2-13.3,19.83l0,0 c-5.65,5.66-12.42,10.22-19.95,13.34c-7.24,3.01-15.18,4.66-23.49,4.66c-8.31,0-16.25-1.66-23.5-4.66l-0.11-0.05 c-7.47-3.11-14.2-7.66-19.83-13.29L18,104.87C12.34,99.21,7.78,92.45,4.66,84.94C1.66,77.69,0,69.76,0,61.44s1.66-16.25,4.66-23.5 l0.05-0.11c3.11-7.47,7.66-14.2,13.29-19.83L18.01,18c5.66-5.66,12.42-10.22,19.94-13.34C45.19,1.66,53.12,0,61.44,0L61.44,0z M16.99,94.47l0.24-0.14c5.9-3.29,21.26-4.38,27.64-8.83c0.47-0.7,0.97-1.72,1.46-2.83c0.73-1.67,1.4-3.5,1.82-4.74 c-1.78-2.1-3.31-4.47-4.77-6.8l-4.83-7.69c-1.76-2.64-2.68-5.04-2.74-7.02c-0.03-0.93,0.13-1.77,0.48-2.52 c0.36-0.78,0.91-1.43,1.66-1.93c0.35-0.24,0.74-0.44,1.17-0.59c-0.32-4.17-0.43-9.42-0.23-13.82c0.1-1.04,0.31-2.09,0.59-3.13 c1.24-4.41,4.33-7.96,8.16-10.4c2.11-1.35,4.43-2.36,6.84-3.04c1.54-0.44-1.31-5.34,0.28-5.51c7.67-0.79,20.08,6.22,25.44,12.01 c2.68,2.9,4.37,6.75,4.73,11.84l-0.3,12.54l0,0c1.34,0.41,2.2,1.26,2.54,2.63c0.39,1.53-0.03,3.67-1.33,6.6l0,0 c-0.02,0.05-0.05,0.11-0.08,0.16l-5.51,9.07c-2.02,3.33-4.08,6.68-6.75,9.31C73.75,80,74,80.35,74.24,80.7 c1.09,1.6,2.19,3.2,3.6,4.63c0.05,0.05,0.09,0.1,0.12,0.15c6.34,4.48,21.77,5.57,27.69,8.87l0.24,0.14 c6.87-9.22,10.93-20.65,10.93-33.03c0-15.29-6.2-29.14-16.22-39.15c-10-10.03-23.85-16.23-39.14-16.23 c-15.29,0-29.14,6.2-39.15,16.22C12.27,32.3,6.07,46.15,6.07,61.44C6.07,73.82,10.13,85.25,16.99,94.47L16.99,94.47L16.99,94.47z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                        <img src="img/jokowi.png" alt="">
+                                        <div class="name">
+                                            Joko Widodo
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div class="Description">
+                                        <p class="description">
+                                            Hello, I am a software engineer with over 5 years of experience in web
+                                            development. I specialize in building scalable, high-performance web
+                                            applications using modern web technologies such as React, Angular, and
+                                            Node.js.
+                                        </p>
+                                        <div class="socialbar">
+                                            <a id="youtube" href="https://www.youtube.com/@Jokowi" target="_blank"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                    fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                                </svg></a>
+
+                                            <a id="instagram" href="https://www.instagram.com/jokowi/"
+                                                target="_blank"><svg viewBox="0 0 16 16" class="bi bi-instagram"
+                                                    fill="currentColor" height="16" width="16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                                    </path>
+                                                </svg></a>
+
+                                            <a id="facebook" href="https://www.facebook.com/Jokowi/?locale=id_ID"
+                                                target="_blank"><svg viewBox="0 0 16 16" class="bi bi-facebook"
+                                                    fill="currentColor" height="16" width="16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                                                    </path>
+                                                </svg></a>
+
+                                            <a id="twitter" href="https://twitter.com/jokowi?s=20" target="_blank"><svg
+                                                    viewBox="0 0 16 16" class="bi bi-twitter" fill="currentColor"
+                                                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <div class="profile-image">
+                                        <svg viewBox="0 0 122.88 122.88" y="0px" x="0px"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg" version="1.1" class="pfp">
+                                            <g>
+                                                <path
+                                                    d="M61.44,0c8.32,0,16.25,1.66,23.5,4.66l0.11,0.05c7.47,3.11,14.2,7.66,19.83,13.3l0,0c5.66,5.65,10.22,12.42,13.34,19.95 c3.01,7.24,4.66,15.18,4.66,23.49c0,8.32-1.66,16.25-4.66,23.5l-0.05,0.11c-3.12,7.47-7.66,14.2-13.3,19.83l0,0 c-5.65,5.66-12.42,10.22-19.95,13.34c-7.24,3.01-15.18,4.66-23.49,4.66c-8.31,0-16.25-1.66-23.5-4.66l-0.11-0.05 c-7.47-3.11-14.2-7.66-19.83-13.29L18,104.87C12.34,99.21,7.78,92.45,4.66,84.94C1.66,77.69,0,69.76,0,61.44s1.66-16.25,4.66-23.5 l0.05-0.11c3.11-7.47,7.66-14.2,13.29-19.83L18.01,18c5.66-5.66,12.42-10.22,19.94-13.34C45.19,1.66,53.12,0,61.44,0L61.44,0z M16.99,94.47l0.24-0.14c5.9-3.29,21.26-4.38,27.64-8.83c0.47-0.7,0.97-1.72,1.46-2.83c0.73-1.67,1.4-3.5,1.82-4.74 c-1.78-2.1-3.31-4.47-4.77-6.8l-4.83-7.69c-1.76-2.64-2.68-5.04-2.74-7.02c-0.03-0.93,0.13-1.77,0.48-2.52 c0.36-0.78,0.91-1.43,1.66-1.93c0.35-0.24,0.74-0.44,1.17-0.59c-0.32-4.17-0.43-9.42-0.23-13.82c0.1-1.04,0.31-2.09,0.59-3.13 c1.24-4.41,4.33-7.96,8.16-10.4c2.11-1.35,4.43-2.36,6.84-3.04c1.54-0.44-1.31-5.34,0.28-5.51c7.67-0.79,20.08,6.22,25.44,12.01 c2.68,2.9,4.37,6.75,4.73,11.84l-0.3,12.54l0,0c1.34,0.41,2.2,1.26,2.54,2.63c0.39,1.53-0.03,3.67-1.33,6.6l0,0 c-0.02,0.05-0.05,0.11-0.08,0.16l-5.51,9.07c-2.02,3.33-4.08,6.68-6.75,9.31C73.75,80,74,80.35,74.24,80.7 c1.09,1.6,2.19,3.2,3.6,4.63c0.05,0.05,0.09,0.1,0.12,0.15c6.34,4.48,21.77,5.57,27.69,8.87l0.24,0.14 c6.87-9.22,10.93-20.65,10.93-33.03c0-15.29-6.2-29.14-16.22-39.15c-10-10.03-23.85-16.23-39.14-16.23 c-15.29,0-29.14,6.2-39.15,16.22C12.27,32.3,6.07,46.15,6.07,61.44C6.07,73.82,10.13,85.25,16.99,94.47L16.99,94.47L16.99,94.47z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                        <img src="img/steve-jobs.png" alt="">
+                                        <div class="name">
+                                            Steven Jobs
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div class="Description">
+                                        <p class="description">
+                                            Hello, I am a software engineer with over 5 years of experience in web
+                                            development. I specialize in building scalable, high-performance web
+                                            applications using modern web technologies such as React, Angular, and
+                                            Node.js.
+                                        </p>
+                                        <div class="socialbar">
+
+
+                                            <a id="instagram" href="https://www.instagram.com/stevejobsok/?hl=id" target="_blank"><svg
+                                                    viewBox="0 0 16 16" class="bi bi-instagram" fill="currentColor"
+                                                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                                    </path>
+                                                </svg></a>
+
+                                            <a id="facebook" href="https://www.facebook.com/stevejobsfilm/" target="_blank"><svg
+                                                    viewBox="0 0 16 16" class="bi bi-facebook" fill="currentColor"
+                                                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                                                    </path>
+                                                </svg></a>
+
+                                            <a id="twitter" href="https://twitter.com/stevejobsfilm?lang=id" target="_blank"><svg
+                                                    viewBox="0 0 16 16" class="bi bi-twitter" fill="currentColor"
+                                                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev previous" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- testimoni end -->
+
+    <!-- send start -->
+
+    <section class="send margin400px" id="send">
+        <div class="container">
+
+            <div>
+                <div class="text-center" class="col-sm-12">
+                    <h2>Send Us</h2>
+                    <center>
+                        <hr>
+                    </center>
+                </div>
+            </div>
+
+            <div class="alamat">
+                <div class="alamat-1">
+                    <div class="icon-alamat">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+                        </svg>
+                    </div>
+                    <p class="text-center">
+                        Address : Manhattan, New York 10036, Amerika Serikat 10004.
+                    </p>
+                </div>
+                <div class="alamat-2">
+                    <div class="icon-alamat-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                    </div>
+                    <p class="text-center">
+                        Phone : +12 456 7890
+                    </p>
+                </div>
+                <div class="alamat-3">
+                    <div class="icon-alamat-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <path
+                                d="M29.919 6.163l-4.225 19.925c-0.319 1.406-1.15 1.756-2.331 1.094l-6.438-4.744-3.106 2.988c-0.344 0.344-0.631 0.631-1.294 0.631l0.463-6.556 11.931-10.781c0.519-0.462-0.113-0.719-0.806-0.256l-14.75 9.288-6.35-1.988c-1.381-0.431-1.406-1.381 0.288-2.044l24.837-9.569c1.15-0.431 2.156 0.256 1.781 2.013z" />
+                        </svg>
+                    </div>
+                    <p class="text-center">
+                        Email : info@gmail.com
+                    </p>
+                </div>
+                <div class="alamat-4">
+                    <div class="icon-alamat-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-globe" viewBox="0 0 16 16">
+                            <path
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                        </svg>
+                    </div>
+                    <p class="text-center">
+                        Website : website.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="row kotak-send" style="margin-top: -70px;" data-aos="fade-up" data-aos-duration="2000">
+
+                <div class="col-lg-4 col-sm-10 offset-lg-1 offset-sm-1">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1839490173393!2d-73.98811752477779!3d40.757978734800744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sid!2sid!4v1689990722526!5m2!1sid!2sid"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <br>
+
+                    <div class="bagianalamat align-items-center">
+                        <ul class="list-group">
+                            <li class="list-group-item visitor-web">
+                                <span class="tooltip">number of visitors</span>
+                                <div class="papan-nomor">
+                                    <div class="website-counter"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-10 offset-lg-1 offset-sm-1 isi-send">
+
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                        <strong>Holla!</strong> pesan telah diterima🙏
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+
+                    <form name="submit-to-google-sheet">
+                        <div class="mb-3 data">
+                            <label for="nama" class="form-label juduldata">Nama</label>
+                            <input type="text" class="form-control isidata" id="nama" name="nama"
+                                placeholder="tuliskan nama anda">
+                        </div>
+
+                        <div class="mb-3 data">
+                            <label for="email" class="form-label juduldata">Email</label>
+                            <input type="email" class="form-control isidata" id="email" name="email"
+                                placeholder="tuliskan email anda">
+                        </div>
+
+                        <div class="mb-3 data">
+                            <label for="pesan" class="form-label juduldata"> Tuliskan Pesan</label>
+                            <textarea class="form-control isidata" id="pesan" name="pesan" rows="5"
+                                placeholder="tuliskan pesan anda"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary col-12 btn-kirim" type="submit">Kirim Pesan</button>
+
+                        <button class="btn btn-primary col-12 btn-loading d-none" type="button" disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+    <!-- send end -->
+
+
+    <!-- footer start -->
+    <footer class="fixed-footer">
+        <div class="row">
+            <div class="col">
+                <h2>ACHPORTO</h2>
+                <p>
+                    ACHPORTO, is Achmal's portfolio website as a recent web developer student, please always support for the child's growth and development.
+                </p>
+                <ul style="margin-top: 50px; display: grid; grid-template-columns: 1fr 1fr 1fr;">
+                    <li><a href="https://www.instagram.com/achmalp/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/mamelilea" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/achmal-pradipta-aditama-742b85285" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col footer-nav" style="margin-left: 20px;">
+                <h2>Links</h2>
+                <ul>
+                    <li style="margin-top: 10px;"><a href="">Home</a></li>
+                    <li style="margin-top: 10px;"><a href="">About</a></li>
+                    <li style="margin-top: 10px;"><a href="">Record</a></liv>
+                    <li style="margin-top: 10px;"><a href="">Skills</a></li>
+                    <li style="margin-top: 10px;"><a href="">Background</a></li>
+                    <li style="margin-top: 10px;"><a href="">Testimoni</a></li>
+                </ul>
+            </div>
+
+            <div class="col footer-services">
+                <h2>Services</h2>
+                <ul>
+                    <li style="margin-top: 18px;">
+                        Web Design
+                    </li>
+                    <li style="margin-top: 18px;">
+                        Web Development
+                    </li>
+                    <li style="margin-top: 18px;">
+                        Brand & Logo
+                    </li>
+                    <li style="margin-top: 18px;">
+                        Mobile App
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h2>Have a Questions?</h2>
+                <ul>
+                    <li style="list-style: circle;">
+                        <p>you can send me a message in contact section</p>
+                    </li>
+                    <li style="display: grid; grid-template-columns: .2fr 2fr; margin-left: -48px;">
+                        <i style="position: relative; top: calc(50% - 8px); " class="fa-solid fa-location-dot"></i>
+                        203 Fake St. Mountain View, San Francisco, California, USA
+                    </li>
+                    <li style="margin-top: 18px; display: grid; grid-template-columns: .2fr 2fr;  margin-left: -48px;">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        +62 1234 8765
+                    </li>
+                    <li style="margin-top: 18px; display: grid; grid-template-columns: .2fr 2fr;  margin-left: -48px;">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        info@mamelilea.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="copyright" style="display: flex; text-align: center; justify-content: center;">
+            <p>
+                Copyright <i class="fa-regular fa-copyright"></i> 2023 All rights reserved | This Portfolio is made with <i class="fa-regular fa-heart"></i> by Achmal.
+            </p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+
+
+
+
+    <!-- INI SCRIPT -->
+
+    <!-- ini js ku -->
+    <script src="js/script.js"></script>
+
+    <!-- ini bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- ini jquerry -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <!-- ini icon -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!-- ini animasi homepage -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multi-text", {
+            strings: ["Creator", "Developer", "Dreamer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        })
+    </script>
+
+    <!-- ini script loader -->
+    <!-- hanya tulis ini, kemudian tambah iframe yt, selesai -->
+    <script>
+        var loading = document.getElementById("loader-section");
+        window.addEventListener("load", function () {
+            loading.style.display = "none";
+        })
+    </script>
+
+    <!-- ini script form -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx6C3X-oF_7a1pYUkXu_GgPSU9d8LwEgSXs1LY0z4IqiCDoFHCigzYWslVcOnKpJ3nXOA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const myAlert = document.querySelector('.my-alert');
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            //   ketika submit di klik maka :
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then((response) => {
+                    console.log('Success!', response)
+                    btnLoading.classList.toggle('d-none');
+                    btnKirim.classList.toggle('d-none');
+                    myAlert.classList.toggle('d-none');
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
